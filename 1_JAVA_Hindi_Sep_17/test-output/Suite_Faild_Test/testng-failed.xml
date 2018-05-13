@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite_Faild_Test]">
+  <test name="Test_A B C(failed)">
+    <classes>
+      <class name="mukesh_Otwani.TestCase_3">
+        <methods>
+          <include name="testcaseC"/>
+        </methods>
+      </class> <!-- mukesh_Otwani.TestCase_3 -->
+    </classes>
+  </test> <!-- Test_A B C(failed) -->
+</suite> <!-- Failed suite [Suite_Faild_Test] -->

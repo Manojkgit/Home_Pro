@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="Test 1">
+  <parameter name="Browser" value="chrome"></parameter>
+  <classes>
+  <class name="interviewPractise.CrossBrowserTest"></class>
+  </classes>
+  </test>
+  
+  <test name="Test 2">
+  <parameter name="BrowserTest" value="Fire"></parameter>
+  <classes>
+  <class name="interviewPractise.CrossBrowserTesting"></class>
+  </classes>
+  </test>
+  
+  
+   <!-- Test -->
+</suite> <!-- Suite -->

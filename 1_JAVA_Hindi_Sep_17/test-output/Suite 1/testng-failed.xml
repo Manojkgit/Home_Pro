@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]" parallel="tests">
+  <test name="Parameter Test(failed)" parallel="tests">
+    <classes>
+      <class name="javaPackage_InterviewQ.ParameterTest">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- javaPackage_InterviewQ.ParameterTest -->
+      <class name="javaPackage_InterviewQ.TestNG_FirstClass">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="Password_Change_test2"/>
+          <include name="beforeMethod"/>
+          <include name="LogOut_test3"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- javaPackage_InterviewQ.TestNG_FirstClass -->
+      <class name="javaPackage_InterviewQ.Assertion_Soft_Assert">
+        <methods>
+          <include name="doLogin"/>
+        </methods>
+      </class> <!-- javaPackage_InterviewQ.Assertion_Soft_Assert -->
+    </classes>
+  </test> <!-- Parameter Test(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

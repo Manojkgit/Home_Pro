@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [ManojSuite]]">
+  <test name="M(failed)(failed)">
+    <classes>
+      <class name="failTestPackage.M_C">
+        <methods>
+          <include name="M_C2"/>
+        </methods>
+      </class> <!-- failTestPackage.M_C -->
+      <class name="failTestPackage.M_B">
+        <methods>
+          <include name="M_B1"/>
+          <include name="M_B2"/>
+        </methods>
+      </class> <!-- failTestPackage.M_B -->
+    </classes>
+  </test> <!-- M(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [ManojSuite]] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="TestA">
+    <classes>
+      <class name="javaPackage_InterviewQ.TestA"/>
+    </classes>
+  </test> 
+  <test name="TestB"> 
+    <classes>
+      <class name="javaPackage_InterviewQ.TestB"/>
+    </classes>
+    </test>
+    <test name="TestC">
+    <classes>
+         <class name="javaPackage_InterviewQ.TestC"/>
+    </classes>
+  </test>
+  <!-- Test -->
+</suite> <!-- Suite -->
